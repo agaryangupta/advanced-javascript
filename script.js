@@ -88,6 +88,7 @@
 // sum(...arr,...arr2);
 
 ////////////////////////////////////////
+
 // rest parameters
 
 // function sum(x,y){
@@ -121,8 +122,6 @@
 // let resulArr = [];
 // for (let i = 0; i < 10: i++) {
 //     let result = addTwoNumbers(i, 2 * i)
-
-
 // }
 
 /////////////////////////////////////
@@ -144,7 +143,6 @@
 // console.log("Not available here:", x);
 
 //////////////////////////////////////
-
 
 // function test() {
 //     let y = "local variable ";
@@ -217,3 +215,88 @@
 
 ////////////////////////////////////////
 
+// (function(){
+// console.log("IIFE");
+// })();
+
+// (()=>{
+//     console.log("Run Right Away");
+// })();
+
+////////////////////////////////////////
+
+// function recursive(nr){
+//     console.log(nr);
+//     if(nr>0){
+//     recursive(--nr);
+// }}
+// recursive(3);
+
+// function recursive(nr){
+//     if(nr>0){
+//         recursive(--nr);
+//     }
+//     console.log(nr);}
+// recursive(3);
+
+// function logrecursive(nr){
+// console.log("started", nr);
+//     if(nr>0){
+//         logrecursive(nr-1);
+//     }
+//     else{
+//         console.log("done");
+//     }
+//     console.log("ended",nr);
+//     }
+// logrecursive(3);
+
+////////////////////////////////////////
+
+// NESTED FUNCTION
+
+// function outerfxn(nr){
+//     console.log("outer fxn");
+//     innerfxn(nr);
+//     function innerfxn(x){
+//         console.log(x+7);
+//         console.log("i can access outer", nr);
+//     }
+// }
+// outerfxn(8);
+
+////////////////////////////////////////
+
+// ANONYMOUS FUNCTION
+// FUNCTION CALLBACKS
+
+// let functionVariable=function(){
+//     console.log("Not so secret");
+// };
+
+// function flexible(execute){
+//     execute();
+//     console.log("inside flexible fxn");
+// }
+// flexible(functionVariable);
+
+// let yougot = function(){
+//     console.log("keep coding");
+// };
+// setTimeout(yougot,1000);
+// setInterval(yougot,1000);
+
+// let val=10;
+// function tester(val){
+//     val+=10;
+//     if (val<100){
+//         return tester(val);
+//     }
+//     return val;
+// }
+// tester(val);
+// console.log(val);
+
+// let test=function(){
+//     console.log("hi");
+// }();
