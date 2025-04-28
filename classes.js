@@ -245,3 +245,10 @@
 // console.log(arr.length);
 // const sparseArray=[1,,,4,5,,];
 // const arr=[,]
+
+// const person={
+//     firstName="john",
+//     ,
+//     age: 30;
+// }
+// console.log(person);
