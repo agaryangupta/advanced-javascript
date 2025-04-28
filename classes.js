@@ -104,11 +104,24 @@ console.log(obj.prop2);
 
 /******PROTOTYPE******** */
 
-Person.prototype.introduce = function() {
-    console.log(Hello, my name is ${this.firstname});
+// Person.prototype.introduce = function() {
+//     console.log(Hello, my name is ${this.firstname});
 
-    };
-Person.prototype.favouritecolor = "green";
-let p=new Person("John", "Doe");
-console.log(p.favouritecolor); // Output: green
-p.introduce(); // Output: Hello, my name is John
+//     };
+// Person.prototype.favouritecolor = "green";
+// let p=new Person("John", "Doe");
+// console.log(p.favouritecolor); // Output: green
+// p.introduce(); // Output: Hello, my name is John
+
+const fruits= new Map([
+    ['apple', 1],
+    ['banana', 2],
+    ['orange', 3]
+]);
+console.log(fruits);
+
+const fruits= new Map();
+fruits.set('apple', 1);
+fruits.set('banana', 2);
+fruits.set('orange', 3);
+console.log(fruits);
