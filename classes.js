@@ -113,15 +113,47 @@ console.log(obj.prop2);
 // console.log(p.favouritecolor); // Output: green
 // p.introduce(); // Output: Hello, my name is John
 
-const fruits= new Map([
-    ['apple', 1],
-    ['banana', 2],
-    ['orange', 3]
-]);
-console.log(fruits);
+// const fruits= new Map([
+//     ['apple', 1],
+//     ['banana', 2],
+//     ['orange', 3]
+// ]);
+// console.log(fruits);
 
-const fruits= new Map();
-fruits.set('apple', 1);
-fruits.set('banana', 2);
-fruits.set('orange', 3);
-console.log(fruits);
+
+// const fruits= new Map();
+// fruits.set('apple', 1);
+// fruits.set('banana', 2);
+// fruits.set('orange', 3);
+// console.log(fruits);
+
+// fruits.get('banana'); 
+// console.log(typeof fruits.get('banana'));
+
+// fruits.delete('banana');
+// console.log(fruits);
+// fruits.clear();
+// console.log(fruits);
+
+// fruits.set('apple', 100);
+// fruits.set('banana', 200); 
+// fruits.set('orange', 300);
+// console.log(fruits);
+
+// let text="";
+// fruits.forEach(function(value, key){
+//     text += key + "=" + value + "\n";
+// })
+// console.log(text);
+
+const apples ={name:'Apples'};
+const bananas ={name:'Bananas'};
+const oranges ={name:'Oranges'};
+
+const fruits=new Map()
+
+fruits.set(apples,500);
+fruits.set(bananas,500);
+fruits.set(oranges,500);
+
+fruits.get("apples");
