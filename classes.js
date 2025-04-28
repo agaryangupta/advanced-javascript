@@ -211,3 +211,37 @@
 // let {lastName,firstName}= person
 // console.log(firstName);
 // console.log(lastName);
+
+// let {lastName,firstName}= person
+// console.log(firstName);
+// console.log(lastName);
+
+// let name ="Morris";
+// let [a1,a2]=name
+// console.log(a1);
+// let {[2]:a3}=name;
+// console.log(a3);
+
+// const numbers=[1,2,3,4,5,6,7,8,9,10];
+// const [a,b,...rest]=numbers;
+// console.log(rest);
+
+//swapping
+// let firstName="Morris";
+// let lastName="Kathuloo";
+// [firstName,lastName]=[lastName,firstName];
+// console.log(firstName);
+// console.log(lastName);
+
+// let x=5;
+// console.log(x**2);
+
+// ARRAY INCLUDES
+// const fruits=["banana","apples","oranges","mangoes"]
+// console.log(fruits.includes("apples",2))
+
+// TRAILING COMMAS
+// const arr=["one", "two", "three",];
+// console.log(arr.length);
+// const sparseArray=[1,,,4,5,,];
+// const arr=[,]
