@@ -146,14 +146,68 @@ console.log(obj.prop2);
 // })
 // console.log(text);
 
-const apples ={name:'Apples'};
-const bananas ={name:'Bananas'};
-const oranges ={name:'Oranges'};
+// const apples ={name:'Apples'};
+// const bananas ={name:'Bananas'};
+// const oranges ={name:'Oranges'};
 
-const fruits=new Map()
+// const fruits=new Map()
 
-fruits.set(apples,500);
-fruits.set(bananas,500);
-fruits.set(oranges,500);
+// fruits.set(apples,500);
+// fruits.set(bananas,500);
+// fruits.set(oranges,500);
 
-fruits.get("apples");
+// fruits.get("apples");
+
+// for(const x of fruits.entries()){
+//     text += x + "\n";
+// }
+// console.log(text);
+
+// for(const x of fruits.keys()){
+//     text += x + "\n";
+// }
+// console.log(text);
+// let sum=0;
+// for(const x of fruits){
+//     sum += x[1];
+// }
+// console.log(sum);
+// for(const x of fruits.values()){
+//     text += x + "\n";
+// }
+// console.log(text);
+
+// const apple={name:"apple"}
+// const banana={name:"banana"}
+// const orange={name:"orange"}
+
+// const fruits= new Map();
+
+// fruits.set(apple, 1);
+// fruits.set(banana, 2);
+// fruits.set(orange, 3);
+// console.log(fruits);
+// fruits.get(apple);
+// console.log(fruits.get("apple"));
+
+// const fruits = [
+//     { name: 'apple', quantity: 1 },
+//     { name: 'banana', quantity: 2 },
+//     { name: 'orange', quantity: 3 } 
+// ];
+
+// function myCallback({quantity}) {
+//     return quantity > 2? "ok": "low";
+// }
+// const result Map.groupby(fruits, myCallback);
+// console.log(result);
+
+// const person={
+//     firstName:"Morris",
+//     lastName:"Kathuloo",
+//     age: 25,
+// }
+
+// let {lastName,firstName}= person
+// console.log(firstName);
+// console.log(lastName);
