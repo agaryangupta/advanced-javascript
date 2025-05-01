@@ -110,17 +110,18 @@
 //     console.log(value);
 // })
 
-function saysomething(x){
-    return new Promise(resolve=>{
-        setTimeout(()=>{
-            resolve("something"+x);
-        },2000);
-    });
-}
-async  function talk(x){
-    const words=await saysomething(x);
-    console.log(words);
-}
-talk(2);
-talk(4);
-talk(8);
+// function saysomething(x){
+//     return new Promise(resolve=>{
+//         setTimeout(()=>{
+//             resolve("something"+x);
+//         },2000);
+//     });
+// }
+// async  function talk(x){
+//     const words=await saysomething(x);
+//     console.log(words);
+// }
+// talk(2);
+// talk(4);
+// talk(8);
+
