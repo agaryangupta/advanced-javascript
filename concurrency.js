@@ -50,3 +50,62 @@
 
 //////Promises//////
 
+// let promise = new Promise(function(resolve,reject){
+//     let x=20;
+//     if (x>10){
+//         resolve(x);
+//     }else{
+//         reject("Too Low");
+//     }
+// });
+// promise.then(
+//     function (value){
+//         console.log("Success:", value);
+//     },
+//     function(error){
+//         console.log("Error:", error);
+//     }
+// );
+
+// let promise = new Promise(function(resolve,reject){
+//     let x=10;
+//     if (x>10){
+//         resolve(x);
+//     }else{
+//         reject("Too Low");
+//     }
+// });
+// promise.then(
+//     function (value){
+//         console.log("Success:", value);
+//     },
+//     function(error){
+//         console.log("Error:", error);
+//     }
+// );
+
+// const promise=new Promise((resolve,reject)=>{
+//     resolve("Success");
+// })
+// .then(value=>{
+//     console.log(value);
+//     return "we";
+// })
+// .then(value=>{
+//     console.log(value);
+//     return "can";
+// })
+// .then(value=>{
+//     console.log(value);
+//     return "chain";
+// })
+// .then(value=>{
+//     console.log(value);
+//     return "promises";
+// })
+// .then(value=>{
+//     console.log(value);
+// })
+// .then(value=>{
+//     console.log(value);
+// })
